@@ -7,10 +7,10 @@ export default function Populares() {
     <aside className={styles.populares}>
         <h2>Populares</h2>
         <ul className={styles.populares__imagens}>
-            {fotosPopulares.map((fotosPopular) => {
+            {fotosPopulares.map((fotoPopular) => {
                 return (
-                    <li key={fotosPopular}>
-                        <img src={fotosPopular.path} alt={fotosPopular.alt} />
+                    <li key={fotoPopular.id}>
+                        <img src={fotoPopular.path} alt={fotoPopular.alt} />
                     </li>
                 )
             })}

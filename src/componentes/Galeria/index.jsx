@@ -12,5 +12,5 @@ export default function Galeria() {
             <Tags />
             <Cards itens={fotos} styles={styles} />
         </section>
-    )
+    );
 }

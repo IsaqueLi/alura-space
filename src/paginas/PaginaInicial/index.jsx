@@ -1,11 +1,12 @@
-import { Fragment } from "react";
 import banner from './banner.png'
-import Cabecalho from "../../componentes/Cabecalho";
-import Menu from "../../componentes/Menu";
 import styles from './Paginainicial.module.scss'
-import Rodape from "../../componentes/Rodape";
-import Galeria from "../../componentes/Galeria";
-import Populares from "../../componentes/Populares";
+
+import { Fragment } from "react";
+import Cabecalho from "componentes/Cabecalho";
+import Menu from "componentes/Menu";
+import Rodape from "componentes/Rodape";
+import Galeria from "componentes/Galeria";
+import Populares from "componentes/Populares";
 
 
 export default function PaginaInicial() {
